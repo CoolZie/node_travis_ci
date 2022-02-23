@@ -1,7 +1,6 @@
 sudo: required
 services:
   - docker
-
   script:
     - docker build -t coulbaly/node2 .
     - docker images coulbaly/node2
